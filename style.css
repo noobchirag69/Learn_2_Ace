@@ -1,0 +1,326 @@
+/* Importing different fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to right, #8db9ff, #d1faff);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(44, 172, 252);
+}
+
+.nav-logo h1 {
+    font-size: 30px;
+    font-family: 'Rubik Distressed', cursive;
+    color: rgb(0, 89, 255);
+}
+
+.nav-options ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-options ul a {
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    font-size: 18px;
+}
+
+.nav-options ul a:hover {
+    color: #000;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(44, 172, 252);
+}
+
+.hero-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(78, 78, 78, 0.6);
+}
+
+.hero-info h1 {
+    margin-bottom: 20px;
+    font-size: 52px;
+    /* text-shadow: 0 2px 2px #777; */
+    color: rgb(0, 89, 255);
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 3px;
+}
+
+.hero-info p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-info button {
+    min-width: 200px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: rgb(0, 89, 255);
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+}
+
+.hero-info button:hover {
+    background-color: transparent;
+    color: rgb(0, 89, 255);
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.about {
+    padding: 50px;
+    border-bottom: 1px solid rgb(44, 172, 252);
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: rgb(0, 89, 255);
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 3px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-info h2, .about-benefits h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 2px;
+    color: rgb(0, 89, 255);
+}
+
+.about-info p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-benefits {
+    text-align: center;
+}
+
+.about-benefits ul {
+    list-style-type: none;
+}
+
+.about-benefits ul li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.services {
+    padding: 50px;
+    border-bottom: 1px solid rgb(44, 172, 252);
+}
+
+.services h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: rgb(0, 89, 255);
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 3px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.card {
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 241, 219);
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(0, 89, 255);
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.card-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.card-info button {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: rgb(0, 89, 255);
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+}
+
+.card-info button:hover {
+    background-color: transparent;
+    color:rgb(0, 89, 255);
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid rgb(44, 172, 252);
+}
+
+.contact form {
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 241, 219);
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+}
+
+.contact form h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: rgb(0, 89, 255);
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 3px;
+}
+
+.contact form label {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: rgb(0, 89, 255);
+}
+
+.contact form input {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+}
+
+.contact form input:focus, .contact form textarea:focus {
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.contact form textarea {
+    height: 100px;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+}
+
+.contact form button {
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 89, 255);
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+}
+
+.contact form button:hover {
+    background-color: transparent;
+    color: rgb(0, 89, 255);
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(0, 89, 255);
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 3px;
+}
+
+.social-icons ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.social-icons ul li {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(0, 89, 255);
+}
