@@ -38,4 +38,7 @@
     .about-info h2, .about-benefits h2, .contact form h1 {
         font-size: 30px;
     }
+    .contact form {
+        padding: 30px;
+    }
 }
