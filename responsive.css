@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+    .hero-info h1 {
+        font-size: 36px;
+    }
+    
+    .hero-info p {
+        font-size: 15px;
+    }
+
+    .about-grid {
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+    }
+    
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-logo {
+        display: none;
+    }
+    .nav-options {
+        margin: 0 auto;
+    }
+    .about-info h2, .about-benefits h2, .contact form h1 {
+        font-size: 30px;
+    }
+}
